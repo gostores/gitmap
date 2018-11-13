@@ -187,7 +187,7 @@ func TestTopLevelAbsPath(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	expected := "github.com/gostores/gitmap"
+	expected := "github.com/govenue/gitmap"
 
 	if !strings.HasSuffix(gr.TopLevelAbsPath, expected) {
 		t.Fatalf("Expected to end with %q got %q", expected, gr.TopLevelAbsPath)
